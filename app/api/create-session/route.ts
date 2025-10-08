@@ -1,5 +1,6 @@
 import { WORKFLOW_ID } from "@/lib/config";
 
+export const runtime = "nodejs";
 interface CreateSessionRequestBody {
   workflow?: { id?: string | null } | null;
   scope?: { user_id?: string | null } | null;
